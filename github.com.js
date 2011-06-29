@@ -1,5 +1,4 @@
 // if I'm in a repo
-alert(1);
 var slashcount = window.location.href.split("/").length;
 if(slashcount >= 5) { // we are in a repo
   // find a top level LICENSE* file

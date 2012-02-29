@@ -56,6 +56,6 @@ if(path_parts[5] && path_parts[5] == "pull") {
   }
   var fetch = "git fetch https://github.com/" + user +"/" + repo + ".git +refs/heads/" + branch +" && git cherry-pick FETCH_HEAD"
   var tabs = $('ul[class*="js-hard-tabs  smalltabs"]');
-  var li = $('<div> One stop fetch: ' + fetch +'</fiv>');
-  $(tabs).after(li);
+  var div = $('<div>' + fetch +'</div>');
+  $(tabs).after(div);
 }

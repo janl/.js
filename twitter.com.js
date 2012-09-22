@@ -1,7 +1,7 @@
 window.onload = function() {
   var elements = [
-    '[data-component-term="user_recommendations"]',     
-    '[data-component-term="trends"]'
+    '[class*="wtf-module"]',
+    '[class*="trends"]'
     ];
   elements.forEach(function(elm) {
     $(elm)
